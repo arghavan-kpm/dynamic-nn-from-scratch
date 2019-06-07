@@ -24,14 +24,14 @@ def main():
 	net = Net("SGD", [784, 100, 10], ["linear", "sigmoid"], ["dropOut", "nothing"], 0.7);
 	All = [];
 
-	for filename in os.listdir(os.getcwd() +"/AI_proj3"):
+	for filename in os.listdir(os.getcwd() +"/DataSet"):
 		print(filename);
 
-		for file in os.listdir("./AI_proj3/" + filename):
+		for file in os.listdir("./DataSet/" + filename):
 
 			if file.endswith(".png"):
 
-				im = Image.open("./AI_proj3/" + filename + "/" + file) 
+				im = Image.open("./DataSet/" + filename + "/" + file) 
 				pix = im.load()
 				L = [];
 				for x in range(0, 28):
