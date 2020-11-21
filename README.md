@@ -6,7 +6,7 @@ This repository is an object-oriented implementation of a neural network using `
 ## Background
 Here, neurons, leyers, and our network are different objects. In their corresponding python classes, their unique functions are implemented and they work together in a heirarchical manner. Before strating with setup process, let's take a look at a brief explanation about concepts of a neural network. If you are familiar with the topics, you can simply skip to [Execution Section](https://github.com/arghavan-kpm//dynamic-nn-from-scratch#Execution). You can find more about neural networks at this tutorial (<http://cs231n.github.io/neural-networks-1/>).
 
-![](https://github.com/arghavan-kpm/dynamic-nn-from-scratch/raw/master/figures/mlp.png)
+![](https://github.com/arghavan-kpm/dynamic-nn-from-scratch/figures/mlp.png)
 
 * In a simple image classification problem, we have more than one categories and we want the network to compute the probability of each input image being in each category. Then we select a category for each image that the network reports the highest probability for. 
 * In the image above, we have a 2-layer Neural Network (one hidden layer of 4 neurons and one output layer with 2 neurons), and three inputs. You may or may not count input layer as one of the network layers.
